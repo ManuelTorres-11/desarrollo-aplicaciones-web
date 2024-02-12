@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
+<style css>
 body {
   background-color: lightblue;
 }
@@ -15,7 +15,7 @@ p {
   font-family: verdana;
   font-size: 20px;
 }
-</style>
+</style css>
 </head>
 <body>
 
