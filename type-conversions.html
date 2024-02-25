@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Numbers</h1>
+<h2>The Number() Method</h2>
+
+<p>The Number() metod converts a variable (or value) into a number:</p>
+
+<p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML =
+Number("3.14") + "<br>" +
+Number(Math.PI) + "<br>" +
+Number("    ") + "<br>" +
+Number("") + "<br>" +
+Number("99 88") + "<br>" +
+Number("John") + "<br>";
+</script>
+
+<h2>The JavaScript String() Method</h2>
+
+<p>The String() method can convert a number to a string.</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 123;
+document.getElementById("demo").innerHTML =
+  String(x) + "<br>" +
+  String(123) + "<br>" +
+  String(100 + 23);
+</script>
+</body>
+</html>
